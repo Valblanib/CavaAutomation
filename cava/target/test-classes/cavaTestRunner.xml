@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Cava Test Runner" parallel="false">
+    <!-- <parameter name="useCloudEnv" value="false"/>
+     <parameter name="cloudEnvName" value="browserstack"/>
+     <parameter name="os" value="Windows"/>
+     <parameter name="os_version" value="10"/>
+     <parameter name="browserName" value="Chrome"/>
+     <parameter name="browserVersion" value="84.0"/>-->
+    <parameter name="url" value="https://cava.com"></parameter>
+    <test name = "">
+        <classes>
+         <class name="CavaHome" />
+            <class name="CavaMenu"></class>
+        </classes>
+    </test>
+</suite>
